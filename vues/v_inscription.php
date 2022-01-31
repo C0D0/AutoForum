@@ -11,6 +11,8 @@
             <br>
         
             <input type="text" class="smBox" name="pseudo" placeholder="Pseudo">
+
+            <input type="mail" class="smBox" name="mail" placeholder="Mail">
                
             <input type="text" class="smBox" name="lastname" placeholder="Nom">
        

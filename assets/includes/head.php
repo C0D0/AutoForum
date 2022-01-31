@@ -8,6 +8,6 @@
     <a href="#" class="btn">
         <img src="../assets/image/arrow-up-solid.png" class="icone">
     </a>
-    <title>Forum</title>
+    <title>AutoForum</title>
 </head>
 

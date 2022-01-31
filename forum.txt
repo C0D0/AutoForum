@@ -1,0 +1,10 @@
+Inscription / Connexion Fait 
+Gestion des droits utilsiateurs / admin A Faire
+Publier une question Fait 
+Afficher les questions publiées par l'utilisateur Fait 
+Modifier une question Fait 
+Supprimer une question Fait 
+Rechercher et afficher les questions A corriger en page d'acceuil.
+Afficher le contenu d'une question Fait 
+Répondre à une question Fait
+Afficher le profil d'un utilisateur (avec ses publications)

@@ -1,0 +1,80 @@
+* {
+    transition: all 0.3s ease;
+  }
+  
+  form { 
+  margin: 0 auto; 
+  width:50%;
+  }
+  
+  .darkBox {
+    background: #373d42;
+    padding: 5% 20% 5% 20%;
+  }
+  
+  .smBox {
+    background: #4c5358;
+    width: 100%;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 5px;
+    border: 0px;
+    transition: 0.2s;
+    caret-color: #FFF;
+    color: #FFF;
+  }
+  
+  .smBox:focus {
+    outline: none;
+    background: #353A3D;
+    border-color: #4c5358;
+    box-shadow: 0 0 20px #1F2224;
+  }
+  
+  ::placeholder {
+      color: #AEAFAF;
+      opacity: 1;
+  }
+  
+  .bigBox {
+    min-height: 150px;
+    padding-bottom: 20%;
+  }
+  
+  .bigTitle {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+ 
+  
+  /* Med */
+  @media screen and (max-width: 1200px) {
+    /* ... */
+    
+    form { 
+  margin: 0 auto; 
+  width: 60%;
+  }
+  .darkBox {
+    background: #373d42;
+    padding: 5% 5% 5% 5%;
+  }
+  }
+  
+  
+  /* Small */
+  @media screen and (max-width: 650px) {
+    /* ... */
+    
+    form { 
+  margin: 0 auto; 
+  width: 100%;
+  }
+  .darkBox {
+    background: #373d42;
+    padding: 5% 5% 5% 5%;
+  }
+  }

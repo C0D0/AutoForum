@@ -1,12 +1,12 @@
 <?php 
     session_start();
-    require('../controleurs/questions/c_montrer-toutes-les-questions.php');
+    require('controleurs/questions/c_montrer-toutes-les-questions.php');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
    
-<link rel="icon" href="../assets/image/logo.png" />
-<?php include '../assets/includes/head.php'; ?>
+<link rel="icon" href="assets/image/logo.png" />
+<?php include 'assets/includes/head.php'; ?>
 <body>
    
     <br><br>
@@ -37,7 +37,7 @@
                 ?>
                 <div class="darkBox">
                     <div class="smBox">
-                        <a href="v_article.php?id=<?= $question['id']; ?>">
+                        <a href="vues/v_article.php?id=<?= $question['id']; ?>">
                             <?= $question['titre']; ?>
                         </a>
                         <br>
@@ -45,7 +45,7 @@
                         <?= $question['description']; ?>
                         <br>
                         <br>
-                        Publié par <a href="v_profile.php?id=<?= $question['id_auteur']; ?>"><?= $question['pseudo_auteur']; ?></a> le <?= $question['date_publication']; ?>
+                        Publié par <a href="vues/v_profile.php?id=<?= $question['id_auteur']; ?>"><?= $question['pseudo_auteur']; ?></a> le <?= $question['date_publication']; ?>
                     </div>
                 </div>
                 <br>

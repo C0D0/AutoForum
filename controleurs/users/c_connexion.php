@@ -32,7 +32,7 @@ if(isset($_POST['validate'])){
                 $_SESSION['pseudo'] = $usersInfos['pseudo'];
 
                 //Rediriger l'utilisateur vers la page d'accueil
-                header('Location: ../../auto-forum/vues/v_index.php');
+                header('Location: ../../index.php');
     
             }else{
                 $errorMsg = "Votre mot de passe est incorrect...";

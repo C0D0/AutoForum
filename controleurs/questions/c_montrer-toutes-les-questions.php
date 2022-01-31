@@ -1,6 +1,6 @@
 <?php
 
-require('/controleurs/bdd/database.php');
+require('controleurs/bdd/database.php');
 
 //Récupérer les questions par défaut sans recherche
 $getAllQuestions = $bdd->query('SELECT id, id_auteur, titre, description, pseudo_auteur, date_publication FROM questions ORDER BY id DESC LIMIT 0,5');

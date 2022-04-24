@@ -7,7 +7,6 @@
    
 <link rel="icon" href="assets/image/logo.png" />
 <?php include 'assets/includes/head.php'; ?>
- <script src="https://www.google.com/recaptcha/api.js"></script>
 <body>
    
     <br><br>

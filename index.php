@@ -40,7 +40,6 @@
                         <a href="vues/v_article.php?id=<?= $question['id']; ?>">
                             <?= $question['titre']; ?>
                         </a>
-                        <
                         <br>
                         <?= $question['description']; ?>
                         <br>

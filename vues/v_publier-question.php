@@ -23,7 +23,7 @@
             }
         ?>
         <br><br>
-        <p class="bigTitle">Drop us a message:</p><br><br><br>
+        <p class="bigTitle">Posez votre question !:</p><br><br><br>
   
 
             <input type="text" class="smBox" name="title" placeholder="Titre de la question">

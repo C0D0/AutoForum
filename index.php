@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="fr">
    
-<link rel="icon" href="assets/image/logo.png" />
+
 <?php include 'assets/includes/head.php'; ?>
 <body>
    

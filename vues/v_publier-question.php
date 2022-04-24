@@ -1,5 +1,5 @@
 <?php 
-    require('../controleurs/users/c_security.php'); 
+
     require('../controleurs/questions/c_publier-question.php');
 ?>
 <!DOCTYPE html>

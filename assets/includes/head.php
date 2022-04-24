@@ -6,7 +6,7 @@
     <link href="../assets/css/style.css" rel="stylesheet">
     <?php include('navbar.php'); ?>
     <a href="#" class="btn">
-        <img src="../assets/image/arrow-up-solid.png" class="icone">
+        <img src="../assets/image/arrow-up-solid.png" class="icone" alt="Logo fleche">
     </a>
 
     <title>AutoForum</title>
